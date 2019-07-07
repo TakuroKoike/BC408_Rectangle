@@ -1,0 +1,20 @@
+20180729	Takuro Koike
+
+
+このシミュレーションは
+Geant4 Japanese Tutorial for Detector Simulation 2017
+TutorialMaterials / P02_Geometry
+および
+P05_Scoring
+を基にしている。
+(http://geant4.kek.jp/lecture/2017.11/Geant4Tutorial20171129.tar.gz)
+
+矩形型(Rectangle)プラスチックシンチレータのシミュレーションである。
+基本的なシミュレーションしか入れていない(エネルギー損失のみのシミュレーション)。
+
+-----シンチのパラメータ-----
+	材料	Geant4 で用意されたプラスチックシンチレータ
+	サイズ	40mm x 75mm x 3mm
+-------------------------
+
+シンチに落としたエネルギーをヒストグラム(ROOTファイル)として出力できる。
